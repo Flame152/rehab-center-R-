@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Центр востановительной мединины R+</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20240315190723">
+	<link href="https://cdn.jsdelivr.net/npm/baguettebox.js@1.11.1/dist/baguetteBox.min.css?_v=20240315190723" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header fix-block">
+			<div class="header__container">
+				<div class="header__row">
+					<a href="index.html" class="header__logo">
+						<div class="header__icon-logo">
+							<picture><source srcset="img/header/logo.webp" type="image/webp"><img src="img/header/logo.png" alt="logo"></picture>
+						</div>
+						<div class="header__text-logo">ЦЕНТР <br> ВОССТАНОВИТЕЛЬНОЙ <br> МЕДИЦИНЫ R+</div>
+					</a>
+					<button type="button" class="menu-burger"><span></span></button>
+					<div class="header__decktop">
+						<div class="header__menu-info menu-info">
+							<div class="menu-info__info">
+								<a href="#contacts-scroll" class="menu-info__address"><span>г.Москва, ул. Липовый парк д.6, к1 </span><span>м.Коммунарка</span></a>
+								<div class="menu-info__clock"><span>Ежедневно </span><span>с 08:00 до 17:00</span></div>
+							</div>
+							<nav class="menu-info__menu">
+								<ul class="menu-info__list">
+									<li class="menu-info__item"><a href="about.html" class="menu-info__link">О нас</a></li>
+									<li class="menu-info__item"><button class="menu-info__link">Услуги</button>
+										<!-- выпадающее меню -->
+										<div class="dropdown-menu">
+											<div class="dropdown-menu__top">
+												<ul class="dropdown-menu__list">
+													<li class="dropdown-menu__item"><a href="#">Психосоматология</a></li>
+													<li class="dropdown-menu__item"><a href="#">Неврология</a></li>
+													<li class="dropdown-menu__item"><a href="#">Остеопатия</a></li>
+													<li class="dropdown-menu__item"><a href="#">Кинезиология</a></li>
+												</ul>
+												<ul class="dropdown-menu__list">
+													<li class="dropdown-menu__item"><a href="#">Ортопедия</a></li>
+													<li class="dropdown-menu__item"><a href="#">Хирургия</a></li>
+													<li class="dropdown-menu__item"><a href="#">Стоматология</a></li>
+												</ul>
+											</div>
+											<div class="dropdown-menu__bottom">
+												<ul class="dropdown-menu__list">
+													<li class="dropdown-menu__item"><a href="treatment_posture.html">Нарушение осанки</a></li>
+													<li class="dropdown-menu__item"><a href="#">Реабилитация</a></li>
+												</ul>
+												<ul class="dropdown-menu__list">
+													<li class="dropdown-menu__item"><a href="#">Лечение спортсменов</a></li>
+													<li class="dropdown-menu__item"><a href="#">Anti-age терапия</a></li>
+												</ul>
+											</div>
+										</div>
+										<!-- выпадающее меню -->
+									</li>
+									<li class="menu-info__item"><a href="doctors.html" class="menu-info__link">Врачи</a></li>
+									<li class="menu-info__item"><a href="stories.html" class="menu-info__link">Истории пациентов</a>
+									</li>
+									<li class="menu-info__item"><a href="prices.html" class="menu-info__link">Цены</a></li>
+									<li class="menu-info__item"><a href="reviews_page.html" class="menu-info__link">Отзывы</a></li>
+									<li class="menu-info__item"><a href="blog.html" class="menu-info__link">Наш блог</a></li>
+									<li class="menu-info__item"><a href="contacts.html" class="menu-info__link">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="header__contacts">
+							<a href="tel:+74951200577" class="header__phone">+7 495 <span>120 05 77</span></a>
+							<button class="header__button button-r button-r_color" data-popup-open="popup-application">Заказать
+								звонок</button>
+						</div>
+					</div>
+					<div class="mobile-menu">
+						<div class="mobile-menu__shadow">
+							<div class="mobile-menu__top">
+								<div class="mobile-menu__logo">
+									<div class="mobile-menu__icon-logo">
+										<picture><source srcset="img/header/logo.webp" type="image/webp"><img src="img/header/logo.png" alt="logo"></picture>
+									</div>
+									<div class="mobile-menu__text-logo">ЦЕНТР <br> ВОССТАНОВИТЕЛЬНОЙ <br> МЕДИЦИНЫ R+</div>
+								</div>
+								<nav class="mobile-menu__menu">
+									<ul class="mobile-menu__list">
+										<li class="mobile-menu__item-dropdown"><button class="mobile-menu__link">Услуги</button>
+											<!-- выпадающее меню мобилка -->
+											<div class="dropdown-menu-mobile">
+												<ul class="dropdown-menu-mobile__list">
+													<li class="dropdown-menu-mobile__item"><a href="#">Психосоматология</a></li>
+													<li class="dropdown-menu-mobile__item"><a href="#">Неврология</a></li>
+													<li class="dropdown-menu-mobile__item"><a href="#">Остеопатия</a></li>
+													<li class="dropdown-menu-mobile__item"><a href="#">Кинезиология</a></li>
+													<li class="dropdown-menu-mobile__item"><a href="#">Ортопедия</a></li>
+													<li class="dropdown-menu-mobile__item"><a href="#">Хирургия</a></li>
+													<li class="dropdown-menu-mobile__item"><a href="#">Стоматология</a></li>
+												</ul>
+												<ul class="dropdown-menu-mobile__list">
+													<li class="dropdown-menu-mobile__item"><a href="treatment_posture.html">Нарушение осанки</a></li>
+													<li class="dropdown-menu-mobile__item"><a href="#">Реабилитация</a></li>
+													<li class="dropdown-menu-mobile__item"><a href="#">Лечение спортсменов</a></li>
+													<li class="dropdown-menu-mobile__item"><a href="#">Anti-age терапия</a></li>
+												</ul>
+											</div>
+											<!-- выпадающее меню мобилка-->
+										</li>
+										<li class="mobile-menu__item"><a href="doctors.html" class="mobile-menu__link">Врачи</a></li>
+										<li class="mobile-menu__item"><a href="stories.html" class="mobile-menu__link">Истории
+												пациентов</a></li>
+										<li class="mobile-menu__item"><a href="prices.html" class="mobile-menu__link">Цены</a></li>
+										<li class="mobile-menu__item"><a href="reviews_page.html" class="mobile-menu__link">Отзывы</a>
+										</li>
+										<li class="mobile-menu__item"><a href="blog.html" class="mobile-menu__link">Наш блог</a></li>
+										<li class="mobile-menu__item"><a href="contacts.html" class="mobile-menu__link">Контакты</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+							<div class="mobile-menu__bottom">
+								<div class="mobile-menu__info">
+									<a href="#contacts-scroll" class="mobile-menu__address"><span>г.Москва, ул. Липовый парк д.6, к1 </span><span>м.Коммунарка</span></a>
+									<div class="mobile-menu__clock"><span>Ежедневно </span><span>с 08:00 до 17:00</span></div>
+								</div>
+								<div class="mobile-menu__contacts">
+									<a href="tel:+74951200577" class="mobile-menu__phone">+7 495 <span>120 05 77</span></a>
+									<button class="mobile-menu__button button-r button-r_color" data-popup-open="popup-application">Заказать звонок</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<!-- background -->
+			<div class="background-gradient">
+				<!-- хлебные крошки -->
+				<div class="crumbs">
+					<div class="crumbs__container">
+						<a href="index.html" class="crumbs__item">Главная</a>
+						<span>\</span>
+						<span class="crumbs__item crumbs__item_underline">Телемедицина</span>
+					</div>
+				</div>
+				<!-- хлебные крошки -->
+			</div>
+			<!-- background -->
+			<!-- Видеоконсультация врача онлайн -->
+			<section class="online">
+				<div class="online__container">
+					<div class="online__row">
+						<div class="online__info">
+							<div class="online__title title-r">
+								<h1>Видеоконсультация врача онлайн</h1>
+							</div>
+							<div class="online__paragraphs">
+								<p>Откройте новые возможности в медицине с телемедициной от клиники R+!</p>
+								<p>Теперь вы можете получать качественные медицинские консультации, не выходя из дома, даже если
+									вы находитесь в самых отдаленных уголках страны.<br>С нашей телемедициной вы можете общаться
+									с опытными врачами и получать первоклассные медицинские консультации, где угодно и когда
+									угодно.</p>
+								<p>Наши видеоконференции делают общение с врачами максимально удобным и доступным. Вы можете
+									задать вопросы, обсудить свои проблемы и получить профессиональные рекомендации, не выходя из
+									дома.</p>
+								<p>Присоединяйтесь к тому, что становится все более популярным в мире здравоохранения. Выбирайте
+									телемедицину от клиники R+ и получайте качественную медицинскую помощь, сохраняя комфорт
+									своего дома!</p>
+							</div>
+							<button class="online__button button-r button-r_color">Узнать подробнее</button>
+						</div>
+						<div class="online__right">
+							<div class="online__title-mobile title-r">
+								<h1>Видеоконсультация врача онлайн</h1>
+							</div>
+							<div class="online__image">
+								<picture><source srcset="img/online_consultation/video_phone.webp" type="image/webp"><img src="img/online_consultation/video_phone.png" alt="phone"></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Видеоконсультация врача онлайн -->
+			<!-- форма контакты Видеоконсультация -->
+			<section class="form-online form-contacts">
+				<div class="form-contacts__container">
+					<div class="form-contacts__title form-contacts__title_margin title-r">
+						<h2>Подходит ли мне данная услуга?</h2>
+					</div>
+					<div class="form-contacts__background form-contacts__background_online">
+						<div class="form-contacts__title form-contacts__title_margin-55 title-r">
+							<h2>Оставьте заявку, и мы перезвоним вам и расскажем все подробности о услуге телемедицина</h2>
+						</div>
+						<div class="form-contacts__desktop">
+							<form action="#" class="form-contacts__form form-contacts__form_gap">
+								<div class="form-contacts__left form-contacts__left_align-self">
+									<div class="form-contacts__top">
+										<div class="form-contacts__item">
+											<input type="text" name="username" placeholder="Имя*" value="">
+										</div>
+										<div class="form-contacts__item">
+											<input type="tel" name="phone" placeholder="+7 (---) --- -- --" value="">
+										</div>
+									</div>
+								</div>
+								<div class="form-contacts__right">
+									<button class="form-contacts__button button-r button-r_color">Отправить заявку</button>
+									<div class="form-contacts__personal-data">
+										<p>Отправляя заявку, я даю свое согласие на обработку своих персональных данных</p>
+									</div>
+								</div>
+							</form>
+							<div class="form-contacts__contacts">Позвоните нам +7 495 120 05 77 или запишитесь по <a href="#" class="form-contacts__messenger">Whatsapp</a></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- форма контакты Видеоконсультация -->
+			<!-- Как это работает -->
+			<section class="how-works">
+				<div class="how-works__container">
+					<div class="how-works__title title-r">
+						<h2>Как это работает?</h2>
+					</div>
+					<div class="how-works__row">
+						<div class="how-works__card">
+							<div class="how-works__body">
+								<div class="how-works__top">
+									<div class="how-works__number">
+										<b>01</b>
+									</div>
+									<div class="how-works__icon">
+										<picture><source srcset="img/online_consultation/card_1.webp" type="image/webp"><img src="img/online_consultation/card_1.png" alt="people"></picture>
+									</div>
+								</div>
+								<div class="how-works__paragraph">
+									<p>Вы оставляете заявку на доступ к видеоконсультации/чату/звонку по выбранному тарифу</p>
+								</div>
+							</div>
+						</div>
+						<div class="how-works__card">
+							<div class="how-works__body">
+								<div class="how-works__top">
+									<div class="how-works__number">
+										<b>02</b>
+									</div>
+									<div class="how-works__icon">
+										<picture><source srcset="img/online_consultation/card_2.webp" type="image/webp"><img src="img/online_consultation/card_2.png" alt="people"></picture>
+									</div>
+								</div>
+								<div class="how-works__paragraph">
+									<p>Мы перезваниваем вам, рассказываем все подробности , определяем потребности и удобный для
+										вас способ связи (Skype, Whatsapp, Viber и др.)</p>
+								</div>
+							</div>
+						</div>
+						<div class="how-works__card">
+							<div class="how-works__body">
+								<div class="how-works__top">
+									<div class="how-works__number">
+										<b>03</b>
+									</div>
+									<div class="how-works__icon">
+										<picture><source srcset="img/online_consultation/card_3.webp" type="image/webp"><img src="img/online_consultation/card_3.png" alt="people"></picture>
+									</div>
+								</div>
+								<div class="how-works__paragraph">
+									<p>Вы производите оплату выбранного тарифа удобным для вас способом</p>
+								</div>
+							</div>
+						</div>
+						<div class="how-works__card">
+							<div class="how-works__body">
+								<div class="how-works__top">
+									<div class="how-works__number">
+										<b>04</b>
+									</div>
+									<div class="how-works__icon">
+										<picture><source srcset="img/online_consultation/card_4.webp" type="image/webp"><img src="img/online_consultation/card_4.png" alt="people"></picture>
+									</div>
+								</div>
+								<div class="how-works__paragraph">
+									<p>В удобное для вас время врач связывается с вами по видеосвязи/в чате/ по телефону.
+										Консультация производится удаленно и вам не нужно никуда ехать</p>
+								</div>
+							</div>
+						</div>
+						<div class="how-works__card">
+							<div class="how-works__body">
+								<div class="how-works__top">
+									<div class="how-works__number">
+										<b>05</b>
+									</div>
+									<div class="how-works__icon">
+										<picture><source srcset="img/online_consultation/card_5.webp" type="image/webp"><img src="img/online_consultation/card_5.png" alt="people"></picture>
+									</div>
+								</div>
+								<div class="how-works__paragraph">
+									<p>Задайте вопрос по услуге Телемедицина по телефону <br> <a href="tel:+74951200577">+7 495 1200577</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Как это работает -->
+			<!-- Преимущества телемедицины -->
+			<section class="advantages-telemedicine">
+				<div class="advantages-telemedicine__container">
+					<div class="advantages-telemedicine__title-subtitle">
+						<div class="advantages-telemedicine__title title-r">
+							<h2>Преимущества телемедицины</h2>
+						</div>
+						<div class="advantages-telemedicine__subtitle">
+							<p>В самых разных ситуациях:</p>
+						</div>
+					</div>
+					<div class="advantages-telemedicine__row">
+						<div class="advantages-telemedicine__card">
+							<div class="advantages-telemedicine__img">
+								<div class="advantages-telemedicine__number">
+									<b>01</b>
+								</div>
+								<picture><source srcset="img/online_consultation/consulting.webp" type="image/webp"><img src="img/online_consultation/consulting.png" alt="consulting"></picture>
+							</div>
+							<div class="advantages-telemedicine__body">
+								<b>Консультации <br> без очередей</b>
+								<p>Мы перезваниваем вам, рассказываем все подробности , определяем потребности и удобный для вас
+									способ связи (Skype, Whatsapp, Viber и др.)</p>
+							</div>
+						</div>
+						<div class="advantages-telemedicine__card">
+							<div class="advantages-telemedicine__img">
+								<div class="advantages-telemedicine__number">
+									<b>02</b>
+								</div>
+								<picture><source srcset="img/online_consultation/home.webp" type="image/webp"><img src="img/online_consultation/home.png" alt="home"></picture>
+							</div>
+							<div class="advantages-telemedicine__body">
+								<b>Комфортная <br> обстановка</b>
+								<p>Решайте свои здоровые вопросы <br> в уютной обстановке дома.</p>
+							</div>
+						</div>
+						<div class="advantages-telemedicine__card">
+							<div class="advantages-telemedicine__img">
+								<div class="advantages-telemedicine__number">
+									<b>03</b>
+								</div>
+								<picture><source srcset="img/online_consultation/people.webp" type="image/webp"><img src="img/online_consultation/people.png" alt="people"></picture>
+							</div>
+							<div class="advantages-telemedicine__body">
+								<b>Дружелюбные <br> специалисты</b>
+								<p>Общайтесь с врачами дистанционно, <br> но все так же лично и доверительно.</p>
+							</div>
+						</div>
+						<div class="advantages-telemedicine__card">
+							<div class="advantages-telemedicine__img">
+								<div class="advantages-telemedicine__number">
+									<b>04</b>
+								</div>
+								<picture><source srcset="img/online_consultation/money.webp" type="image/webp"><img src="img/online_consultation/money.png" alt="money"></picture>
+							</div>
+							<div class="advantages-telemedicine__body">
+								<b>Экономия <br> денег</b>
+								<p>Сократите расходы на дорогу <br> и парковку, оставаясь дома.</p>
+							</div>
+						</div>
+						<div class="advantages-telemedicine__card">
+							<div class="advantages-telemedicine__img">
+								<div class="advantages-telemedicine__number">
+									<b>05</b>
+								</div>
+								<picture><source srcset="img/online_consultation/internet.webp" type="image/webp"><img src="img/online_consultation/internet.png" alt="internet"></picture>
+							</div>
+							<div class="advantages-telemedicine__body">
+								<b>Простота <br> и удобство</b>
+								<p>Подключайтесь <br> к консультации всего лишь <br> одним нажатием.</p>
+							</div>
+						</div>
+						<div class="advantages-telemedicine__card">
+							<div class="advantages-telemedicine__img">
+								<div class="advantages-telemedicine__number">
+									<b>06</b>
+								</div>
+								<picture><source srcset="img/online_consultation/launch.webp" type="image/webp"><img src="img/online_consultation/launch.png" alt="launch"></picture>
+							</div>
+							<div class="advantages-telemedicine__body">
+								<b>Быстрый доступ <br> к медицине</b>
+								<p>Получайте помощь в любое <br> время, когда вам удобно.</p>
+							</div>
+						</div>
+						<div class="advantages-telemedicine__card">
+							<div class="advantages-telemedicine__img">
+								<div class="advantages-telemedicine__number">
+									<b>07</b>
+								</div>
+								<picture><source srcset="img/online_consultation/monitoring.webp" type="image/webp"><img src="img/online_consultation/monitoring.png" alt="monitoring"></picture>
+							</div>
+							<div class="advantages-telemedicine__body">
+								<b>Мониторинг <br> здоровья</b>
+								<p>Оставайтесь на связи <br> со своим врачом <br> и отслеживайте свое состояние.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Преимущества телемедицины -->
+			<!-- тарифы -->
+			<section class="tariffs">
+				<div class="tariffs__container">
+					<div class="tariffs__title title-r">
+						<h2>Тарифы</h2>
+					</div>
+					<div class="tariffs__row">
+						<div class="tariffs__card">
+							<div class="tariffs__body">
+								<div class="tariffs__top">
+									<div class="tariffs__icon">
+										<picture><source srcset="img/online_consultation/medicine.webp" type="image/webp"><img src="img/online_consultation/medicine.png" alt="icon"></picture>
+									</div>
+									<b>Разовое обращение</b>
+								</div>
+								<div class="tariffs__center">
+									<b>СТОИМОСТЬ</b>
+									<span>199₽</span>
+								</div>
+								<div class="tariffs__bottom">
+									<b>что входит в тариф:</b>
+									<ul>
+										<li>Консультация с врачом до 20 мин</li>
+									</ul>
+								</div>
+							</div>
+							<a href="#" class="tariffs__button button-r button-r_shadow">Выбрать этот тариф</a>
+						</div>
+						<div class="tariffs__card">
+							<div class="tariffs__body">
+								<div class="tariffs__top">
+									<div class="tariffs__icon">
+										<picture><source srcset="img/online_consultation/pill.webp" type="image/webp"><img src="img/online_consultation/pill.png" alt="icon"></picture>
+									</div>
+									<b>10 обращений</b>
+								</div>
+								<div class="tariffs__center">
+									<b>СТОИМОСТЬ</b>
+									<span>1499₽</span>
+								</div>
+								<div class="tariffs__bottom">
+									<b>что входит в тариф:</b>
+									<ul>
+										<li>10 консультаций с врачом до 30 минут</li>
+										<li>Одна консультация в день</li>
+									</ul>
+								</div>
+							</div>
+							<a href="#" class="tariffs__button button-r button-r_shadow">Выбрать этот тариф</a>
+						</div>
+						<div class="tariffs__card">
+							<div class="tariffs__body">
+								<div class="tariffs__top tariffs__top_margin">
+									<div class="tariffs__icon">
+										<picture><source srcset="img/online_consultation/pills.webp" type="image/webp"><img src="img/online_consultation/pills.png" alt="icon"></picture>
+									</div>
+									<b>Абонементы</b>
+								</div>
+								<div class="tariffs__center tariffs__center_margin">
+									<div class="tariffs__variants">
+										<b>1 месяц</b>
+										<span>6990₽</span>
+									</div>
+									<div class="tariffs__variants">
+										<b>6 месяц</b>
+										<span>34 900₽</span>
+									</div>
+									<div class="tariffs__variants">
+										<b>12 месяц</b>
+										<span>69 900₽</span>
+									</div>
+								</div>
+								<div class="tariffs__bottom">
+									<b>что входит в тариф:</b>
+									<ul>
+										<li>Время консультаций не ограничено</li>
+										<li>Кол-во обращений в день не ограничено</li>
+									</ul>
+								</div>
+							</div>
+							<a href="#" class="tariffs__button button-r button-r_shadow">Выбрать этот тариф</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- тарифы -->
+			<!-- Карта контакты -->
+			<div id="contacts-scroll" class="contacts">
+				<div class="contacts__container">
+					<div class="contacts__card">
+						<a href="index.html" class="contacts__logo">
+							<div class="contacts__icon-logo">
+								<picture><source srcset="img/header/logo.webp" type="image/webp"><img src="img/header/logo.png" alt="logo"></picture>
+							</div>
+							<div class="contacts__text-logo">ЦЕНТР <br> ВОССТАНОВИТЕЛЬНОЙ <br> МЕДИЦИНЫ R+</div>
+						</a>
+						<div class="contacts__info">
+							<div class="contacts__adress"><span>г. Москва, поселок Коммунарка,</span><span>ул. Липовый парк
+									д.6, к1</span><span>метро Коммунарка</span></div>
+							<div class="contacts__clock">Ежедневно с 08:00 до 17:00</div>
+							<div class="contacts__phones">
+								<a href="tel:+74951200577" class="contacts__tel">+7 495 120 05 77</a>
+								<a href="tel:+79250777896" class="contacts__tel">+7 925 077 78 96</a>
+							</div>
+							<div class="contacts__buttons-wrapper">
+								<button class="contacts__button button-r button-r_color" data-popup-open="popup-application">Записаться
+									на прием</button>
+								<a class="contacts__button button-r button-r_color" href="https://yandex.ru/maps/213/moscow/?ll=37.531074%2C55.624085&amp;mode=routes&amp;rtext=~55.570506%2C37.489106&amp;rtt=auto&amp;ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D194877601277&amp;utm_source=share&amp;z=13" target="_blank">Маршрут на ЯндексКартах</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="contacts__map">
+					<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A61c697c4fdbc92008ab35290d8ad71f3e77198ac49b4a69f541b37a2d6168f37&amp;source=constructor" loading="lazy"></iframe>
+				</div>
+			</div>
+			<!-- Карта контакты -->
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<div class="footer__lists">
+						<div class="footer__list">
+							<div class="footer__title-list">Услуги</div>
+							<ul>
+								<li><a class="footer__item-link" href="#" target="_blank">Диагностика</a></li>
+								<li><a class="footer__item-link" href="#" target="_blank">Лечение</a></li>
+								<li><a class="footer__item-link" href="#" target="_blank">Реабилитация</a></li>
+								<li><a class="footer__item-link" href="online_consultation.html" target="_blank">Телемедицина</a></li>
+								<li><a class="footer__item-link" href="#" target="_blank">Выезд на дом</a></li>
+							</ul>
+						</div>
+						<div class="footer__list">
+							<div class="footer__title-list">Пациентам</div>
+							<ul>
+								<li><a class="footer__item-link" href="stocks.html" target="_blank">Акции</a></li>
+								<li><a class="footer__item-link" href="stories.html" target="_blank">Истории пациентов</a></li>
+								<li><a class="footer__item-link" href="#" target="_blank">Статьи</a></li>
+								<li><a class="footer__item-link" href="prices.html" target="_blank">Цены</a></li>
+								<li><a class="footer__item-link" href="reviews_page.html" target="_blank">Отзывы</a></li>
+							</ul>
+						</div>
+						<div class="footer__list">
+							<div class="footer__title-list">О клинике</div>
+							<ul>
+								<li><a class="footer__item-link" href="about.html" target="_blank">О нас</a></li>
+								<li><a class="footer__item-link" href="#" target="_blank">Фотографии центра</a></li>
+								<li><a class="footer__item-link" href="doctors.html" target="_blank">Врачи</a></li>
+								<li><a class="footer__item-link" href="#" target="_blank">Лицензии и правовая информация</a></li>
+								<li><a class="footer__item-link" href="job.html" target="_blank">Вакансии</a></li>
+								<li><a class="footer__item-link" href="contacts.html" target="_blank">Контакты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__contacts-social">
+						<div class="footer__contacts">
+							<div class="footer__title-contacts">Связаться с нами</div>
+							<ul class="footer__list-contacts">
+								<li><button class="footer__link-contact" data-popup-open="popup-application">Записаться на прием</button></li>
+								<li><a href="#" class="footer__link-contact">Записаться по Whatsapp</a></li>
+								<li><button class="footer__link-contact" data-popup-open="popup-director">Написать ген. директору</button></li>
+							</ul>
+						</div>
+						<div class="footer__social">
+							<div class="footer__title-social">Мы с социальных сетях</div>
+							<div class="footer__items-social">
+								<a href="#" target="_blank" class="footer__item-social"><picture><source srcset="img/footer/whatsapp.webp" type="image/webp"><img src="img/footer/whatsapp.png" alt="whatsapp"></picture></a>
+								<a href="#" target="_blank" class="footer__item-social"><picture><source srcset="img/footer/tg.webp" type="image/webp"><img src="img/footer/tg.png" alt="telegram"></picture></a>
+								<a href="#" target="_blank" class="footer__item-social"><picture><source srcset="img/footer/vk.webp" type="image/webp"><img src="img/footer/vk.png" alt="vk"></picture></a>
+								<a href="#" target="_blank" class="footer__item-social"><picture><source srcset="img/footer/instagram.webp" type="image/webp"><img src="img/footer/instagram.png" alt="instagram"></picture></a>
+								<a href="#" target="_blank" class="footer__item-social"><picture><source srcset="img/footer/youtube.webp" type="image/webp"><img src="img/footer/youtube.png" alt="youtube"></picture></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class="bottom-footer__container">
+					<div class="bottom-footer__content">
+						<div class="bottom-footer__support"><span>Разработка и поддержка</span><a href="#" target="_blank" class="bottom-footer__name-support">Digital Generation</a></div>
+						<a href="#" target="_blank" class="bottom-footer__privacy-policy"><span>Политика</span> <span>конфиденциальности</span></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- popup-Оставьте заявку -->
+	<div class="popup popup-application" data-popup="popup-application">
+		<div class="popup-application__wrapper">
+			<div class="popup-application__content">
+				<button type="button" class="popup-application__close"></button>
+				<div class="popup-application__top">
+					<div class="popup-application__title title-r">
+						<p>Оставьте заявку</p>
+					</div>
+					<div class="popup-application__subtitle">
+						<p>чтобы записаться на прием</p>
+					</div>
+				</div>
+				<form action="#" class="popup-application__form form-application">
+					<div class="form-application__item">
+						<input type="text" name="username" placeholder="Имя*" value="">
+					</div>
+					<div class="form-application__item">
+						<input type="tel" name="phone" placeholder="+7 (---) --- -- --" value="">
+					</div>
+					<button class="form-application__button button-r button-r_shadow">Отправить заявку</button>
+				</form>
+				<div class="popup-application__policy">
+					<p>Отправляя заявку, я даю свое согласие на обработку своих персональных данных</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- popup-Оставьте заявку -->
+	<!-- popup-Написать генеральному директору -->
+	<div class=" popup popup-application" data-popup="popup-director">
+		<div class="popup-application__wrapper">
+			<div class="popup-application__content">
+				<button type="button" class="popup-application__close"></button>
+				<div class="popup-application__top">
+					<div class="popup-application__title title-r title-r_fize">
+						<p>Написать генеральному директору</p>
+					</div>
+				</div>
+				<form action="#" class="popup-application__form form-application">
+					<div class="form-application__item">
+						<input type="text" name="username" placeholder="ФИО*" value="">
+					</div>
+					<div class="form-application__item">
+						<input type="tel" name="phone" placeholder="+7 (---) --- -- --" value="">
+					</div>
+					<div class="form-application__item">
+						<textarea name="text" placeholder="Вопрос*"></textarea>
+					</div>
+					<button class="form-application__button button-r button-r_shadow">Задать вопрос</button>
+				</form>
+				<div class="popup-application__policy">
+					<p>Отправляя заявку, я даю свое согласие на обработку своих персональных данных</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- popup-Написать генеральному директору -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20240315190723"></script>
+	<script src="https://cdn.jsdelivr.net/npm/baguettebox.js@1.11.1/dist/baguetteBox.min.js?_v=20240315190723"></script>
+	<script src="js/app.js"></script>
+
+
+</body>
+
+</html>
